@@ -33,10 +33,10 @@ HEADER = """
 
 PY3 = sys.version_info >= (3,)
 
-DB_TYPE = getenv('db_type', 'SSDB').upper()
-DB_HOST = getenv('db_host', '127.0.0.1')
-DB_PORT = getenv('db_port', 8888)
-DB_PASSWORD = getenv('db_password', '')
+DB_TYPE = getenv('db_type', 'REDIS').upper()
+DB_HOST = getenv('db_host', '49.234.78.157')
+DB_PORT = getenv('db_port', 6379)
+DB_PASSWORD = getenv('db_password', '3201862')
 
 
 """ 数据库配置 """
